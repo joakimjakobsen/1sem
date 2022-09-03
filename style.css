@@ -1,0 +1,52 @@
+body{
+    color: rgb(255, 255, 255);
+    font: 1.2em/1.4em 'Myriad Pro', Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin:0px;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: black;
+    border-bottom: 10px solid green;
+}
+
+#nav{
+    list-style-type: none;
+}
+
+#nav li{
+    margin-right: 20px;
+    float:left;
+}
+
+#nav li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    color: #ddd;
+}
+
+
+#mainContent{
+    width: 60%;
+    height: 40%;
+    background: rgb(135, 135, 135);
+    border: 1px solid black;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+#contentNearTheBottom {
+    width: 600px;
+    height: 500px;
+    background-color: aqua;
+    margin: 100 auto;
+    padding: 20px;
+}
+
